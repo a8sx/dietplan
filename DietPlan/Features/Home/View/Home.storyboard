@@ -91,7 +91,7 @@
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="0.68782106164383561" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="aaW-pV-sm9" secondAttribute="trailing" constant="4" id="Xka-Su-xgO"/>
                                         <constraint firstAttribute="bottom" secondItem="aaW-pV-sm9" secondAttribute="bottom" constant="2" id="oGN-7N-0IB"/>
@@ -100,6 +100,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="backgroudView" destination="aaW-pV-sm9" id="Ir0-aX-x32"/>
                                     <outlet property="caloriesLabel" destination="yMR-gq-7h6" id="Szf-Xa-m2I"/>
                                     <outlet property="dateLabel" destination="7xm-5k-wlG" id="1IB-Qj-4Lv"/>
                                     <outlet property="dayLabel" destination="5E9-kA-Jsd" id="uj6-Xl-Ytt"/>

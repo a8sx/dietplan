@@ -23,6 +23,8 @@
 		CC9BC28D21B6B0A900824500 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9BC28C21B6B0A900824500 /* User.storyboard */; };
 		CC9BC29021B6B3C900824500 /* SimpleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC28F21B6B3C900824500 /* SimpleMessage.swift */; };
 		CC9BC29421B6BC4C00824500 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC29321B6BC4C00824500 /* DayCell.swift */; };
+		CC9BC29621B6D62A00824500 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC29521B6D62A00824500 /* BaseTableViewController.swift */; };
+		CC9BC29821B6D9E400824500 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC29721B6D9E400824500 /* DayViewController.swift */; };
 		EAEEBEA2A6585D2076FE1004 /* Pods_DietPlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9D9D4D79894DCB03451B2A /* Pods_DietPlan.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		CC9BC28C21B6B0A900824500 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		CC9BC28F21B6B3C900824500 /* SimpleMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMessage.swift; sourceTree = "<group>"; };
 		CC9BC29321B6BC4C00824500 /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		CC9BC29521B6D62A00824500 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		CC9BC29721B6D9E400824500 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				CC9BC28F21B6B3C900824500 /* SimpleMessage.swift */,
+				CC9BC29521B6D62A00824500 /* BaseTableViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				CC9BC29321B6BC4C00824500 /* DayCell.swift */,
+				CC9BC29721B6D9E400824500 /* DayViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,6 +354,9 @@
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -355,6 +364,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +387,9 @@
 				CC9BC29021B6B3C900824500 /* SimpleMessage.swift in Sources */,
 				CC99731E21B687BC00F7D452 /* AppDelegate.swift in Sources */,
 				CC99733321B69B4C00F7D452 /* Day.swift in Sources */,
+				CC9BC29621B6D62A00824500 /* BaseTableViewController.swift in Sources */,
 				CC99734921B6A51B00F7D452 /* LoginViewModel.swift in Sources */,
+				CC9BC29821B6D9E400824500 /* DayViewController.swift in Sources */,
 				CC99733C21B69F0000F7D452 /* User.swift in Sources */,
 				CC99734421B6A4A500F7D452 /* HomeViewController.swift in Sources */,
 				CC99733121B68CE700F7D452 /* Food.swift in Sources */,

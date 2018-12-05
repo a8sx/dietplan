@@ -8,4 +8,6 @@ target 'DietPlan' do
   pod 'RealmSwift'
   pod 'SwipeCellKit'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'RxSwift'
+  pod 'RxCocoa'
 end
